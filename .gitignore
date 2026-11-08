@@ -1,0 +1,23 @@
+# dependencies / build output
+node_modules/
+dist/
+target/
+*.class
+*.jar.original
+
+# runtime data
+data/
+logs/
+run/
+*.log
+
+# local env / secrets
+.env.local
+.env.*.local
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db

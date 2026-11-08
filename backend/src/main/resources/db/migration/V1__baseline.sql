@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS app_meta (
+    meta_key VARCHAR(128) NOT NULL PRIMARY KEY,
+    meta_value VARCHAR(512)
+);
